@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bella Studio</title>
 
+        <!-- ICONES -->
+        <link rel="stylesheet" href="assets/fonts/style.css">
+        <link rel="logo" href="assets/logo.svg">
+
         <!-- STYLES -->
         <link rel="stylesheet" href="style.css">
 
@@ -17,7 +21,7 @@
     <body>
         <header id="header">
             <nav class="container">
-                <a class="logo" href="#">Bella <span>Studio</span>.</a>
+                <a class="logo" href="#"><img src="assets/logo.png" alt="Bella Studio."></a>
                 <div class="menu">
                     <ul class="grid">
                         <li><a class="title" href="#about">Sobre</a></li>
@@ -27,8 +31,8 @@
                         <li><a class="title" href="#contact">Contato</a></li>
                     </ul>
                 </div>
-                <div class="open">...</div>
-                <div class="close">x</div>
+                <div class="toggle icon-menu"></div>
+                <div class="toggle icon-close"></div>
             </nav>
         </header>
 
@@ -36,7 +40,7 @@
             <section class="section" id="home">
                 <div class="conteiner grid">
                     <div class="image">
-                        <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Imagem 1" />
+                        <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Cabelereira sorrindo" />
                     </div>
                     <div class="text">
                         <h2 class="title">Saúde natural para os seus cabelos</h2>
@@ -49,16 +53,54 @@
             <div class="divider-1"></div>
 
             <section class="section" id="about">
-                <div class="container grid">Sobre</div>
+                <div class="container grid">
+                    <div class="image">
+                        <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="3 cabelereiras sorrindo">
+                    </div>
+                    <div class="text">
+                        <h2 class="title">Sobre nós</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ad esse odit quasi ab doloribus cumque corporis unde velit, est sunt soluta, reiciendis voluptatum tenetur totam tempore impedit, aperiam recusandae!</p>
+                        <br>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ipsa ducimus ullam? Doloribus omnis, hic, esse dicta ipsum quaerat, ab incidunt harum voluptates sed maxime ullam? Enim exercitationem illo architecto?</p>
+                        <br>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nobis, ducimus nesciunt debitis nihil autem tempora reprehenderit laborum! Reprehenderit totam maiores magni voluptatum odit autem molestias velit provident delectus quibusdam.</p>
+                    </div>
+                </div>
             </section>
 
+            <div class="divider-2"></div>
+
             <section class="section" id="services">
-                <div class="container grid">Serviços</div>
+                <div class="container grid">
+                    <header>
+                        <h2 class="title">Serviços</h2>
+                        <p>Com mais de 10 anos no mercado, a <strong>Bella Studio</strong> já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais</p>
+                    </header>
+                    <div class="cards grid">
+                        <div class="card">
+                            <i class="icon-woman-hair"></i>
+                            <h3 class="title">Terapia capilar</h3>
+                            <p>Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive os longos e finos.</p>
+                        </div>
+                        <div class="card">
+                            <i class="icon-trim"></i>
+                            <h3 class="title">Cortes</h3>
+                            <p>A nossa equipe é repleta de profissionais renomados, famosos por lançarem tendências com cortes diferenciados e clássicos.</p>
+                        </div>
+                        <div class="card">
+                            <i class="icon-cosmetic"></i>
+                            <h3 class="title">Tratamentos</h3>
+                            <p>A Bella Studio conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo de cabelo.</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section class="section">
                 <div class="container">outra section</div>
             </section>
         </main>
+
+        <script src="main.js"></script>
     </body>
 </html>
