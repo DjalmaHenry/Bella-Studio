@@ -44,7 +44,7 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ## 🚀 Protótipo
 
-Você pode testar e usar o Letme Ask através [desse link](https://bellastudio.vercel.app/).
+Você pode acessar o site Bella Studio através [desse link](https://bellastudio.vercel.app/).
 
 ## 🚀 Como executar
 
