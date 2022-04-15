@@ -429,6 +429,11 @@
 }
 
 /* swiper */
+.swiper-container {
+  display: block;
+  overflow: hidden;
+}
+
 .swiper-slide {
   height: auto;
   padding: 4rem 1rem;
